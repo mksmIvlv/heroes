@@ -1,0 +1,68 @@
+
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# Данные файлы могут содержать конфеденциальную информацию
+/[Mm]emoryCaptures/
+
+# Записи могут стать чрезмерно большими по размеру
+/[Rr]ecordings/
+
+# Раскомментировать эту строку, для игнорирования плагина asset store tools
+# /[Aa]ssets/AssetStoreTools*
+
+# Автоматически сгенерированный плагин Jetbrains Rider
+/[Aa]ssets/Plugins/Editor/JetBrains*
+
+# Каталог кэша Visual Studio
+.vs/
+
+# Каталог кэша Gradle
+.gradle/
+
+# Автоматически сгенерированное решение VS/MD/Consuelo и файлы проекта
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Сгенерированные Unity 3D мета-файлы
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Сгенерированные файлы для отчетов о сбоях Unity3D
+sysinfo.txt
+
+# Билды
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# Сгенерированный Crashlytics файл
+crashlytics-build.properties
+
+# Packed Addressables
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+
+# Temporary auto-generated Android Assets
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
