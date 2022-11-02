@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -139,7 +139,1897 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Desert_assets_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 409
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 208d0e2dd20dd354d9bb96ddb7c38144
+      internalID: -604487003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_1
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 409
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19bbe17c0cab3e940bc285659a3faa71
+      internalID: -396448356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_2
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 405
+        width: 50
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b4e13f5f0100564c8776ec57662ad69
+      internalID: 1225171651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_4
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 411
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 807da3bbdd2652e4aa03d8114cc6681c
+      internalID: -497745381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_6
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 411
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a23df4f10b873bf4dbec0e2a30b88dda
+      internalID: -1600257432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_7
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 411
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27e193a2163d25e4f8ede90072a77e8b
+      internalID: -544201209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_8
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 411
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6721f97b351c60d489ba0924315cea6f
+      internalID: -922998002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_16
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 409
+        width: 114
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f95092474c87eee41b8da143c00c0e0d
+      internalID: 1660479646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_18
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 427
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b479bde21486894a919131038aaac74
+      internalID: -1855453097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_19
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 431
+        width: 4
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ac7cdc3adab2cf4d86180c627967dc5
+      internalID: -1597060292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_30
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 395
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b974fa609d1bad4d84992f83b24acc5
+      internalID: 1093279981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_31
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 395
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa36432674944784f8019bff63b5b32a
+      internalID: 961771744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_32
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 395
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2c7bc15a593f3846940b21d772f9a40
+      internalID: 1281051418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_33
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 395
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd951ed4348d294c8050e49e3fb4a42
+      internalID: 621277611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_53
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 379
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6dfc395bf58e05489f8b9b4290b5bc7
+      internalID: -259600840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_55
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 379
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d59097af236fd45b466f92c2ebc7d0
+      internalID: 1778476561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_56
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 379
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85b9baaa4f403ef42bc110a499f4d33b
+      internalID: 2070779471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_57
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 379
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b44ce0318b8cc246a7fef71ac04c206
+      internalID: -1977974848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_77
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 363
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b9ecc7ec839a5e42a2d16438e3bde1b
+      internalID: -388489679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_78
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 363
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a045fa7ae637c554e97d0e68d643df20
+      internalID: 1461165463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_79
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 363
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d9b8cf6930c4554cb3c729c6fd9c683
+      internalID: -1052623389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_80
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 363
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41f9f05fd3d4f4547a899839643484cb
+      internalID: 1741267100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_106
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 308
+        width: 6
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c394a7091e41f2f4dbadeaa3f7d9c72f
+      internalID: -1406069029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_134
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 308
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee3e356f8af633745ae5bf03b359c63f
+      internalID: -1266068836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_136
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 307
+        width: 36
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72701e49f8ed9d048917ea1cd1e04f5b
+      internalID: -229686575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_144
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 305
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 042f9b81e70c4ae47bbcec37eb26ceb2
+      internalID: -246187933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_145
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 305
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f615463bd709b7409e99121aca0fbaa
+      internalID: -1320139434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_146
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 305
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 753b6d2df813ddf49b1ca502ee80029b
+      internalID: 1181360807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_148
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 305
+        width: 27
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1998d2bd0b9788a4cb307975d16c3cfe
+      internalID: -929759060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_149
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 305
+        width: 21
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e10d2a0ec6821ee45afcc6ba78c8c059
+      internalID: 477398428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_150
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 305
+        width: 5
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f2ee7a068cc6a4ead2c8aabd07ad78
+      internalID: 472593288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_152
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 309
+        width: 62
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 597f13bd3321da34995c6f20741a9686
+      internalID: 383414784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_155
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 308
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 108c1f40b29d83246997c30be03ada69
+      internalID: 1210354582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_162
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 308
+        width: 23
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e7a032adc85144ea3ef2dff33048b7
+      internalID: 312767560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_192
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 274
+        width: 22
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6558cb16fc22b0438a01afc5cfe6a9c
+      internalID: -593323701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_193
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 274
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6c4a05a3bfcd934799484a0934d3fe8
+      internalID: 744553917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_194
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 274
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 127453a7e3815f644a4197543d158fe9
+      internalID: -364168220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_195
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 274
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8de7ad55491e4cb44bff1f42696997d2
+      internalID: 438044606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_196
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 274
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49a1467ab1ce9274fa64dd9befa8cfaf
+      internalID: 2037653234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_197
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 274
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fa303491aa02404d90ce9f44999a7ee
+      internalID: -1777856511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_198
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 274
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ecb47fbd857bc541a8893dcc3a5134d
+      internalID: 1723340207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_199
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 274
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32a4257a1df75424caa8298a7c586ca1
+      internalID: 629114701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_200
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 274
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d713e4bb7d12c3a4082a1a0e4d2222c5
+      internalID: 38467434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_201
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 274
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11820a3d0d6bb104a8913c9cc65e53a5
+      internalID: 158839851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_202
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 274
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da4aa95d702b5e149830a531d9184a7d
+      internalID: 763850862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_203
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 274
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51708cea53d4de04b8b3bc157548b386
+      internalID: -1672040316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_204
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 274
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 678c3de6f85fc664d85af5ce3fcc0cb3
+      internalID: -1953922301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_205
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 274
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae6246e7878d9334ea6c6521d43caffa
+      internalID: 1925024513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_206
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 274
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d881d3162a8424149adb06951a4f73e8
+      internalID: -1915456561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_207
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 274
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b90e6596be5a4b244b426f234a6addd2
+      internalID: 1780202996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_216
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 250
+        width: 23
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a1e4e411825fb44a8c84847e9908d20
+      internalID: 654295535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_217
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 250
+        width: 23
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63653997606a2dd40983d75e812ac599
+      internalID: -7551952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_218
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 250
+        width: 23
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b0d01657161a5a46a5ede4c1c5179f3
+      internalID: -295375563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_219
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 250
+        width: 23
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1a62318788366c4cb48f0f5f686e3d2
+      internalID: 1575296146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_220
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 250
+        width: 23
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b277e503c2c013418449611e6625e13
+      internalID: 1127686677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_221
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 250
+        width: 23
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c51805644a68354a9573681620c62b7
+      internalID: 167932421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_222
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 250
+        width: 23
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b164822183c6ff2478d3e7ecd955cc71
+      internalID: 1155902993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_223
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 250
+        width: 20
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64cb397c35c11dc43bbf3c1158b81e44
+      internalID: -1467619577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_224
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 250
+        width: 23
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7b6ddbae59151a499344a11997af009
+      internalID: 2121443907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_225
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 250
+        width: 23
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6abe952e5c7b650428d4ab8d1cd8f818
+      internalID: 277802120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_226
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 250
+        width: 23
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44bb5371b89c96d4095ed984b8ecc04c
+      internalID: 1342494604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_227
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 250
+        width: 23
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c3d0d123beffb47a8c25158475b227
+      internalID: 1848023786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_228
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 250
+        width: 24
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86d06716eaa09ce4bb970f758c1c9f19
+      internalID: -696543143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_229
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 250
+        width: 23
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13f7607bc0861b547a60eda39129a320
+      internalID: 1860889419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_230
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 250
+        width: 29
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d27f25066a251b549bb53fcdc7368006
+      internalID: -1458305874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_231
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 250
+        width: 20
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4e21a6a97696234bb948ccbc2c83e6e
+      internalID: 1476069849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_288
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 204
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8acac52100c1ca94da5c2ddc0f100062
+      internalID: -452334607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_312
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 165
+        width: 83
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c0a120b00e5da344b506136c99ac791
+      internalID: -1769421219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_324
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 181
+        width: 58
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e6527543435dfa4c8f54054e4cb020b
+      internalID: 310754084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_326
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 171
+        width: 44
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5acc9c1579db6094d9e5bae1d9b4fd3d
+      internalID: -292831206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_366
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 135
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9dabaa86cd30ee409610f48a9991743
+      internalID: -673575024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_367
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 135
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8eeb837a7e9a5046a70e7f6984e9fd8
+      internalID: -1419714629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_368
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 135
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 082d3b1a87984e64ea21c4708d88ddc8
+      internalID: -189950362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_369
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 135
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71dc376c9ee8f8c49ba0c66d1951c4e8
+      internalID: 1871509398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_370
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 135
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bdad085b3c5c0f40b32e46e21d10705
+      internalID: -527371118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_374
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 140
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 228383d9d7833a24e8ac91b0350245c3
+      internalID: 1616128706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_375
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 140
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc0e5721e650bd540b2d35223679bae2
+      internalID: -1737486703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_395
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 95
+        width: 44
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14817ce2f70b7dc4d92b75ddddbd1d24
+      internalID: 1116454902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_397
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 124
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f599b86e701ebea4499185e225b3e889
+      internalID: 94639042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_398
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 124
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2086348d1c465b44a1e99269dfd1178
+      internalID: 1716735363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_413
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 95
+        width: 44
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b01fd23ed3f284f4eaa5238e0eb74438
+      internalID: 1865313332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_421
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 108
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d8b0374cf852014c935f0d03e532e2d
+      internalID: -663454892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_422
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 108
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72f2e3d46706f5d46a11afe70ab1a557
+      internalID: 998236259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_432
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 93
+        width: 76
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d02d9e902f838498f7ee6a7c649421
+      internalID: 1050180884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_445
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 95
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4e281c05782f854e9823fee9a6228a4
+      internalID: 1252971209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_446
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 95
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 251a240e34aa1b74cb55a2c5ffb752ce
+      internalID: 1794930730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_509
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 20
+        width: 142
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d43113156606434d870f23285eaa1b1
+      internalID: -2035137646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_535
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 20
+        width: 92
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b9a31c9b525ba149bc9e6f60cc23ad4
+      internalID: -117605612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_541
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 19
+        width: 64
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67d7a156240d9504496ddc8e250727cd
+      internalID: -199608982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_assets_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 213
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 290289102bb0b0f49857f5d528a24cd7
+      internalID: -1739077697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -150,7 +2040,559 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Desert_assets_44: -1526974035
+      Desert_assets_450: 1515546473
+      Desert_assets_157: 555991813
+      Desert_assets_244: -1359986391
+      Desert_assets_206: -1915456561
+      Desert_assets_87: -1161018657
+      Desert_assets_135: 77377884
+      Desert_assets_177: -278209246
+      Desert_assets_407: -1384137039
+      Desert_assets_330: -1308730841
+      Desert_assets_373: 914213112
+      Desert_assets_397: 94639042
+      Desert_assets_442: -1952111402
+      Desert_assets_492: -832598606
+      Desert_assets_429: -613332
+      Desert_assets_163: -1322911859
+      Desert_assets_336: -1537802511
+      Desert_assets_511: -37472194
+      Desert_assets_534: 1802773864
+      Desert_assets_280: 881054184
+      Desert_assets_148: -929759060
+      Desert_assets_35: -924762345
+      Desert_assets_383: -1089069047
+      Desert_assets_253: -500250142
+      Desert_assets_215: -1204892726
+      Desert_assets_199: 629114701
+      Desert_assets_249: -1526649007
+      Desert_assets_386: 1228707675
+      Desert_assets_159: 1851879403
+      Desert_assets_498: -116241056
+      Desert_assets_385: -1081298988
+      Desert_assets_388: 207495550
+      Desert_assets_43: 1624762606
+      Desert_assets_437: 1545505505
+      Desert_assets_342: 121357868
+      Desert_assets_140: 182076306
+      Desert_assets_161: 56677321
+      Desert_assets_323: -620684969
+      Desert_assets_179: 1717772659
+      Desert_assets_368: -189950362
+      Desert_assets_478: -832879937
+      Desert_assets_313: 576639520
+      Desert_assets_107: 1007147516
+      Desert_assets_456: 1118470977
+      Desert_assets_125: 636096
+      Desert_assets_7: -544201209
+      Desert_assets_427: -1301677649
+      Desert_assets_248: -1332575566
+      Desert_assets_462: -1727102248
+      Desert_assets_184: 1539559939
+      Desert_assets_29: -516247415
+      Desert_assets_465: 496059902
+      Desert_assets_529: 2117250565
+      Desert_assets_409: 375043123
+      Desert_assets_466: -659790644
+      Desert_assets_74: 1983007696
+      Desert_assets_49: -1286370608
+      Desert_assets_300: -1932343645
+      Desert_assets_231: 1476069849
+      Desert_assets_264: 96031527
+      Desert_assets_96: -1627217229
+      Desert_assets_222: 1155902993
+      Desert_assets_369: 1871509398
+      Desert_assets_195: 438044606
+      Desert_assets_348: -1778568191
+      Desert_assets_33: 621277611
+      Desert_assets_259: -1114126455
+      Desert_assets_205: 1925024513
+      Desert_assets_283: -1559329507
+      Desert_assets_118: 781641669
+      Desert_assets_126: 1297587605
+      Desert_assets_525: 2119170765
+      Desert_assets_527: 1296332773
+      Desert_assets_403: -1069528301
+      Desert_assets_503: -1957133461
+      Desert_assets_136: -229686575
+      Desert_assets_109: -1584503303
+      Desert_assets_278: -972341396
+      Desert_assets_346: -1456951487
+      Desert_assets_190: -1516845130
+      Desert_assets_277: -2099340121
+      Desert_assets_2: 1225171651
+      Desert_assets_127: -1792804120
+      Desert_assets_266: 670761901
+      Desert_assets_365: 1008189022
+      Desert_assets_474: 1025666814
+      Desert_assets_52: -544790629
+      Desert_assets_497: -1521485588
+      Desert_assets_475: 1267922730
+      Desert_assets_60: -642059999
+      Desert_assets_212: -1256855209
+      Desert_assets_485: -697622517
+      Desert_assets_151: -1117680982
+      Desert_assets_367: -1419714629
+      Desert_assets_131: 283339846
+      Desert_assets_84: -718306686
+      Desert_assets_245: -551300404
+      Desert_assets_401: 808415829
+      Desert_assets_430: -2005493477
+      Desert_assets_331: 820654709
+      Desert_assets_6: -1600257432
+      Desert_assets_519: -1329734376
+      Desert_assets_80: 1741267100
+      Desert_assets_395: 1116454902
+      Desert_assets_290: -714369250
+      Desert_assets_476: -1178414656
+      Desert_assets_302: 992936317
+      Desert_assets_454: 1926571280
+      Desert_assets_99: -1638663040
+      Desert_assets_263: 1686434077
+      Desert_assets_225: 277802120
+      Desert_assets_355: -1995521028
+      Desert_assets_416: -605577859
+      Desert_assets_269: -784823665
+      Desert_assets_402: 258941137
+      Desert_assets_424: 1265495053
+      Desert_assets_421: -663454892
+      Desert_assets_181: -1564726079
+      Desert_assets_239: -59025545
+      Desert_assets_486: 579567240
+      Desert_assets_489: 1740192411
+      Desert_assets_233: 1618908120
+      Desert_assets_251: 160073320
+      Desert_assets_287: -418698504
+      Desert_assets_468: -1587096719
+      Desert_assets_165: 1530544118
+      Desert_assets_349: -545364535
+      Desert_assets_173: 720993495
+      Desert_assets_39: 1750517224
+      Desert_assets_211: -1392012505
+      Desert_assets_431: 1472441353
+      Desert_assets_510: 310054883
+      Desert_assets_221: 167932421
+      Desert_assets_292: 112635824
+      Desert_assets_289: 1907400884
+      Desert_assets_62: 1248742822
+      Desert_assets_10: 694634501
+      Desert_assets_236: 2020681289
+      Desert_assets_260: 1250342097
+      Desert_assets_315: 826284178
+      Desert_assets_218: -295375563
+      Desert_assets_472: -221799006
+      Desert_assets_309: -2080997161
+      Desert_assets_194: -364168220
+      Desert_assets_276: -1476423333
+      Desert_assets_168: -33631842
+      Desert_assets_411: 1647455087
+      Desert_assets_67: -949176122
+      Desert_assets_513: -37282140
+      Desert_assets_458: 147016907
+      Desert_assets_426: -1040911037
+      Desert_assets_501: -1555438928
+      Desert_assets_240: 1527958811
+      Desert_assets_250: -160093782
+      Desert_assets_506: -2038421056
+      Desert_assets_360: 211730523
+      Desert_assets_123: 1295197122
+      Desert_assets_185: -1807396703
+      Desert_assets_550: 1410337700
+      Desert_assets_551: 953298050
+      Desert_assets_377: -134362924
+      Desert_assets_175: 1729597761
+      Desert_assets_444: -1084234640
+      Desert_assets_291: -794963967
+      Desert_assets_32: 1281051418
+      Desert_assets_242: 1517700339
+      Desert_assets_189: -251725253
+      Desert_assets_491: -205853985
+      Desert_assets_449: 1191281272
+      Desert_assets_40: -1113161097
+      Desert_assets_73: -1327458507
+      Desert_assets_282: -743992300
+      Desert_assets_286: 156532315
+      Desert_assets_410: -277697980
+      Desert_assets_28: 1992149652
+      Desert_assets_271: -122894584
+      Desert_assets_293: -772948743
+      Desert_assets_387: -1833237330
+      Desert_assets_281: -402378989
+      Desert_assets_337: 862640038
+      Desert_assets_91: 299275406
+      Desert_assets_327: 1453212365
+      Desert_assets_333: -1735240682
+      Desert_assets_187: 1974857309
+      Desert_assets_14: 597211865
+      Desert_assets_138: -1975962366
+      Desert_assets_443: 1136166418
+      Desert_assets_326: -292831206
+      Desert_assets_122: 1938853656
+      Desert_assets_90: -51859026
+      Desert_assets_479: -2083378537
+      Desert_assets_110: -362565286
+      Desert_assets_128: -946455722
+      Desert_assets_100: 1620555013
+      Desert_assets_540: 862242704
+      Desert_assets_34: -1913769800
+      Desert_assets_441: -1576669123
+      Desert_assets_504: 1808823809
+      Desert_assets_247: -1755498887
+      Desert_assets_267: -1418936308
+      Desert_assets_82: 502386929
+      Desert_assets_191: -961740846
+      Desert_assets_186: -98330960
+      Desert_assets_238: 1681862426
+      Desert_assets_536: -692434205
+      Desert_assets_119: 1102658420
+      Desert_assets_203: -1672040316
+      Desert_assets_162: 312767560
+      Desert_assets_345: 2012713171
+      Desert_assets_398: 1716735363
+      Desert_assets_347: 737600854
+      Desert_assets_54: 1266516927
+      Desert_assets_359: 2114317552
+      Desert_assets_106: -1406069029
+      Desert_assets_243: 672475756
+      Desert_assets_396: 1113643652
+      Desert_assets_482: -1928236973
+      Desert_assets_343: -1437674308
+      Desert_assets_487: -555941057
+      Desert_assets_312: -1769421219
+      Desert_assets_375: -1737486703
+      Desert_assets_469: 347017494
+      Desert_assets_370: -527371118
+      Desert_assets_357: -930203078
+      Desert_assets_88: 1455084880
+      Desert_assets_415: -947272056
+      Desert_assets_435: 1715133057
+      Desert_assets_275: 991856161
+      Desert_assets_4: -497745381
+      Desert_assets_37: 1475336907
+      Desert_assets_31: 961771744
+      Desert_assets_517: -2095400642
+      Desert_assets_116: 1246708781
+      Desert_assets_89: 61619006
+      Desert_assets_178: 1807127189
+      Desert_assets_338: -1637846511
+      Desert_assets_217: -7551952
+      Desert_assets_70: 1850166824
+      Desert_assets_133: 465790087
+      Desert_assets_26: 1410414827
+      Desert_assets_216: 654295535
+      Desert_assets_50: 118877677
+      Desert_assets_79: -1052623389
+      Desert_assets_279: 1209070604
+      Desert_assets_92: -1672189539
+      Desert_assets_202: 763850862
+      Desert_assets_471: -1133120904
+      Desert_assets_297: 1730865573
+      Desert_assets_261: 1679299164
+      Desert_assets_366: -673575024
+      Desert_assets_353: -975025862
+      Desert_assets_198: 1723340207
+      Desert_assets_539: 1530633178
+      Desert_assets_329: 575134106
+      Desert_assets_473: 596574029
+      Desert_assets_232: -1189194728
+      Desert_assets_344: 501339544
+      Desert_assets_284: 290406259
+      Desert_assets_42: -816407600
+      Desert_assets_358: 342490739
+      Desert_assets_220: 1127686677
+      Desert_assets_399: -1739910410
+      Desert_assets_318: -1896794199
+      Desert_assets_488: 525092567
+      Desert_assets_86: -266147765
+      Desert_assets_144: -246187933
+      Desert_assets_158: 1375285557
+      Desert_assets_446: 1794930730
+      Desert_assets_272: -525924491
+      Desert_assets_311: 1464296364
+      Desert_assets_356: -2077191972
+      Desert_assets_223: -1467619577
+      Desert_assets_11: -1099946442
+      Desert_assets_160: 1329061945
+      Desert_assets_394: -407872156
+      Desert_assets_533: 604731639
+      Desert_assets_364: 1411468067
+      Desert_assets_59: 1937082332
+      Desert_assets_453: -1185650429
+      Desert_assets_104: 1862793730
+      Desert_assets_3: -1739077697
+      Desert_assets_381: 1794313880
+      Desert_assets_545: -988574067
+      Desert_assets_85: -473498531
+      Desert_assets_124: -567096275
+      Desert_assets_542: 1812686554
+      Desert_assets_182: 619609544
+      Desert_assets_201: 158839851
+      Desert_assets_75: 2101426908
+      Desert_assets_310: 997625422
+      Desert_assets_237: 424108972
+      Desert_assets_301: 197634898
+      Desert_assets_390: -1193707947
+      Desert_assets_255: 1401209150
+      Desert_assets_95: 891845319
+      Desert_assets_171: 1114849790
+      Desert_assets_433: 1402236973
+      Desert_assets_376: 817332096
+      Desert_assets_412: -2112646644
+      Desert_assets_537: 623931548
+      Desert_assets_520: -1447145001
+      Desert_assets_549: -2067554683
+      Desert_assets_464: -1453183418
+      Desert_assets_447: 379216831
+      Desert_assets_460: -1156301899
+      Desert_assets_204: -1953922301
+      Desert_assets_94: -1598193663
+      Desert_assets_0: -604487003
+      Desert_assets_436: 1060010300
+      Desert_assets_414: -1808124220
+      Desert_assets_214: 1725697870
+      Desert_assets_314: -683116934
+      Desert_assets_154: 1600613750
+      Desert_assets_146: 1181360807
+      Desert_assets_213: 1360814734
+      Desert_assets_490: 1700120730
+      Desert_assets_24: -989202233
+      Desert_assets_111: 2091632833
+      Desert_assets_219: 1575296146
+      Desert_assets_137: -59206991
+      Desert_assets_391: 1448825030
+      Desert_assets_320: 1187294158
+      Desert_assets_328: 926333063
+      Desert_assets_98: -224893120
+      Desert_assets_188: -549160852
+      Desert_assets_196: 2037653234
+      Desert_assets_268: -696840613
+      Desert_assets_256: 2013252797
+      Desert_assets_455: -63198853
+      Desert_assets_296: 1880380778
+      Desert_assets_115: -313128367
+      Desert_assets_209: -1926808117
+      Desert_assets_83: -937561881
+      Desert_assets_352: -1360896039
+      Desert_assets_362: 362753876
+      Desert_assets_234: -1238269240
+      Desert_assets_307: 1547257152
+      Desert_assets_544: -1620787543
+      Desert_assets_428: 2061872218
+      Desert_assets_48: 739133246
+      Desert_assets_335: 1047788477
+      Desert_assets_23: 186786990
+      Desert_assets_445: 1252971209
+      Desert_assets_9: 1011743624
+      Desert_assets_480: 1167959975
+      Desert_assets_18: -1855453097
+      Desert_assets_274: 1260389332
+      Desert_assets_317: -975738482
+      Desert_assets_166: 607268840
+      Desert_assets_295: -1628522330
+      Desert_assets_438: 165898449
+      Desert_assets_521: 2101264224
+      Desert_assets_30: 1093279981
+      Desert_assets_461: -818279028
+      Desert_assets_380: 222381280
+      Desert_assets_406: -1972106639
+      Desert_assets_518: -910050569
+      Desert_assets_382: 1771349958
+      Desert_assets_493: -1764322344
+      Desert_assets_15: 740059779
+      Desert_assets_21: -1385141236
+      Desert_assets_526: 1867799428
+      Desert_assets_145: -1320139434
+      Desert_assets_68: -926232880
+      Desert_assets_93: 1272299951
+      Desert_assets_25: 1200924937
+      Desert_assets_339: -112822221
+      Desert_assets_372: -2011890228
+      Desert_assets_193: 744553917
+      Desert_assets_72: -1326661254
+      Desert_assets_379: 460066156
+      Desert_assets_12: -1980926355
+      Desert_assets_130: -743000205
+      Desert_assets_105: 2091221858
+      Desert_assets_459: 1658590150
+      Desert_assets_112: -1510093512
+      Desert_assets_57: -1977974848
+      Desert_assets_142: 1747662319
+      Desert_assets_467: 498551519
+      Desert_assets_61: -906319722
+      Desert_assets_334: -443960164
+      Desert_assets_167: -2003490967
+      Desert_assets_494: -227301413
+      Desert_assets_55: 1778476561
+      Desert_assets_303: 220426161
+      Desert_assets_528: -2014117355
+      Desert_assets_153: -1094380084
+      Desert_assets_139: 1719913654
+      Desert_assets_66: 746220709
+      Desert_assets_285: 1504501379
+      Desert_assets_114: 61638017
+      Desert_assets_515: -1235246078
+      Desert_assets_500: -1231155455
+      Desert_assets_169: -414174561
+      Desert_assets_535: -117605612
+      Desert_assets_78: 1461165463
+      Desert_assets_200: 38467434
+      Desert_assets_524: -1642354202
+      Desert_assets_81: -265979133
+      Desert_assets_143: -665815732
+      Desert_assets_448: 80433167
+      Desert_assets_405: 349368279
+      Desert_assets_371: -316882159
+      Desert_assets_463: -368777693
+      Desert_assets_523: 307725462
+      Desert_assets_538: -1251802386
+      Desert_assets_546: -1395908681
+      Desert_assets_27: 2133787764
+      Desert_assets_47: 8993882
+      Desert_assets_354: 1439136952
+      Desert_assets_457: 1258616335
+      Desert_assets_64: 1496218648
+      Desert_assets_258: 2001797408
+      Desert_assets_483: -1723659815
+      Desert_assets_404: 1390103125
+      Desert_assets_419: -1507042553
+      Desert_assets_208: 1392730544
+      Desert_assets_228: -696543143
+      Desert_assets_150: 472593288
+      Desert_assets_363: 1643106577
+      Desert_assets_13: -1414595623
+      Desert_assets_149: 477398428
+      Desert_assets_392: 1745755406
+      Desert_assets_8: -922998002
+      Desert_assets_53: -259600840
+      Desert_assets_235: 899469921
+      Desert_assets_499: -1065414252
+      Desert_assets_325: 591224329
+      Desert_assets_361: -730455880
+      Desert_assets_246: 1437358122
+      Desert_assets_16: 1660479646
+      Desert_assets_36: 1120134316
+      Desert_assets_340: -512811118
+      Desert_assets_495: 141543002
+      Desert_assets_452: -1198694154
+      Desert_assets_257: 295133706
+      Desert_assets_509: -2035137646
+      Desert_assets_321: 358457739
+      Desert_assets_470: 1771190861
+      Desert_assets_210: 1367559610
+      Desert_assets_5: 330220872
+      Desert_assets_265: 217697136
+      Desert_assets_389: -1013724693
+      Desert_assets_224: 2121443907
+      Desert_assets_305: 957497971
+      Desert_assets_207: 1780202996
+      Desert_assets_418: 1645314990
+      Desert_assets_481: -169939007
+      Desert_assets_71: -1727866966
+      Desert_assets_288: -452334607
+      Desert_assets_129: -734837318
+      Desert_assets_270: 1764581826
+      Desert_assets_432: 1050180884
+      Desert_assets_273: 855099336
+      Desert_assets_351: 1469167165
+      Desert_assets_422: 998236259
+      Desert_assets_229: 1860889419
+      Desert_assets_132: 38816113
+      Desert_assets_507: 2061051859
+      Desert_assets_308: 627472143
+      Desert_assets_45: -913674590
+      Desert_assets_374: 1616128706
+      Desert_assets_152: 383414784
+      Desert_assets_384: 1580444343
+      Desert_assets_101: -1531259842
+      Desert_assets_316: -240802172
+      Desert_assets_514: 189546728
+      Desert_assets_41: 1331061938
+      Desert_assets_56: 2070779471
+      Desert_assets_156: 55350082
+      Desert_assets_400: 98738746
+      Desert_assets_117: 1222845680
+      Desert_assets_226: 1342494604
+      Desert_assets_77: -388489679
+      Desert_assets_46: -1330094234
+      Desert_assets_69: -435941401
+      Desert_assets_378: -642671138
+      Desert_assets_530: 1816136608
+      Desert_assets_496: -1054112029
+      Desert_assets_508: -1190230008
+      Desert_assets_63: 1896242745
+      Desert_assets_512: -1917155171
+      Desert_assets_262: 1360902461
+      Desert_assets_65: 1561138444
+      Desert_assets_531: 1776950927
+      Desert_assets_76: -1618475370
+      Desert_assets_341: -204935542
+      Desert_assets_413: 1865313332
+      Desert_assets_192: -593323701
+      Desert_assets_306: 912334761
+      Desert_assets_102: -304439971
+      Desert_assets_120: 1699673042
+      Desert_assets_439: -1387491963
+      Desert_assets_38: 1582836957
+      Desert_assets_134: -1266068836
+      Desert_assets_183: -1563402963
+      Desert_assets_393: -228669289
+      Desert_assets_51: 1116385367
+      Desert_assets_121: 736068418
+      Desert_assets_170: -683091092
+      Desert_assets_548: -348981104
+      Desert_assets_543: -1290906584
+      Desert_assets_324: 310754084
+      Desert_assets_322: 267794596
+      Desert_assets_299: -438885174
+      Desert_assets_252: -117596951
+      Desert_assets_484: -803198896
+      Desert_assets_434: 36344157
+      Desert_assets_227: 1848023786
+      Desert_assets_254: -1952832063
+      Desert_assets_319: 130244836
+      Desert_assets_420: 570383540
+      Desert_assets_113: -262485957
+      Desert_assets_417: -851623108
+      Desert_assets_532: 2081534912
+      Desert_assets_58: 1142331326
+      Desert_assets_547: 569827300
+      Desert_assets_541: -199608982
+      Desert_assets_22: -669968047
+      Desert_assets_522: 843727735
+      Desert_assets_174: -2028775121
+      Desert_assets_147: 33625362
+      Desert_assets_350: 987119131
+      Desert_assets_425: -1216122792
+      Desert_assets_440: -912553904
+      Desert_assets_502: 1376327864
+      Desert_assets_108: 114188005
+      Desert_assets_423: 1694111017
+      Desert_assets_451: -1207029370
+      Desert_assets_180: -1178993566
+      Desert_assets_155: 1210354582
+      Desert_assets_20: 995858904
+      Desert_assets_294: 1562615519
+      Desert_assets_176: 846828115
+      Desert_assets_172: 813488039
+      Desert_assets_298: 1487318395
+      Desert_assets_516: 1136532206
+      Desert_assets_241: -297162707
+      Desert_assets_505: 1430402638
+      Desert_assets_197: -1777856511
+      Desert_assets_17: -674891917
+      Desert_assets_19: -1597060292
+      Desert_assets_304: 1588183053
+      Desert_assets_141: -1447727776
+      Desert_assets_477: -923848851
+      Desert_assets_164: -1140152530
+      Desert_assets_408: -1832424430
+      Desert_assets_97: -257400666
+      Desert_assets_103: 1625332561
+      Desert_assets_230: -1458305874
+      Desert_assets_1: -396448356
+      Desert_assets_332: -1933330436
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
