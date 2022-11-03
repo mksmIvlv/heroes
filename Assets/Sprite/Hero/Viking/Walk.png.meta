@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5b99e50da922bf543b8daea328c4c4c1
+guid: 03a425312f70f5047b0716b845ed4c6c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -141,169 +141,169 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: spr_Dash_strip_0
+      name: Walk_1
       rect:
         serializedVersion: 2
-        x: 63
+        x: 66
         y: 20
-        width: 35
+        width: 34
         height: 35
       alignment: 9
-      pivot: {x: 0.4613301, y: 0}
+      pivot: {x: 0.40910295, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e02473a025d22a4986f2130270c6c0c
-      internalID: -1776964799
+      spriteID: 6f933ce84b5a88643aa0308aaa9ab526
+      internalID: -607351993
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_Dash_strip_1
+      name: Walk_2
       rect:
         serializedVersion: 2
-        x: 238
+        x: 236
+        y: 20
+        width: 36
+        height: 35
+      alignment: 9
+      pivot: {x: 0.4489013, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6317185b850fbfa4f80bdef00deac257
+      internalID: -418760195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_3
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 20
+        width: 36
+        height: 34
+      alignment: 9
+      pivot: {x: 0.4528317, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc3394a4b2c1bdc44a65ac8c70c7f5f5
+      internalID: -1831017797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_4
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 20
+        width: 37
+        height: 35
+      alignment: 9
+      pivot: {x: 0.44263354, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d10bcae94c233345b10c89f4ad2a6ec
+      internalID: 1373874713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_5
+      rect:
+        serializedVersion: 2
+        x: 746
         y: 20
         width: 38
         height: 34
       alignment: 9
-      pivot: {x: 0.44403037, y: 0}
+      pivot: {x: 0.41062847, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac2bfa194b550f64797795d279b543bc
-      internalID: -1465041214
+      spriteID: dc63e7a8df86df74f96f78c9e15f0247
+      internalID: 1263838529
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_Dash_strip_2
+      name: Walk_6
       rect:
         serializedVersion: 2
-        x: 422
+        x: 916
         y: 20
-        width: 43
-        height: 29
-      alignment: 9
-      pivot: {x: 0.3651045, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6c7c975ab55b9c348b5f87173feb248e
-      internalID: -481242330
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_Dash_strip_3
-      rect:
-        serializedVersion: 2
-        x: 591
-        y: 20
-        width: 59
-        height: 29
-      alignment: 9
-      pivot: {x: 0.5294955, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 72c70cab04c2c784f9f561bb929f7aa2
-      internalID: -1408863671
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_Dash_strip_4
-      rect:
-        serializedVersion: 2
-        x: 759
-        y: 20
-        width: 76
-        height: 29
-      alignment: 9
-      pivot: {x: 0.6373829, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 268db2b1d424de64ea13a59005b709d2
-      internalID: -1059145999
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_Dash_strip_5
-      rect:
-        serializedVersion: 2
-        x: 927
-        y: 20
-        width: 79
-        height: 31
-      alignment: 9
-      pivot: {x: 0.70314354, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ab2c93f99244a0b42b5e6459922a4c73
-      internalID: -1890236320
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_Dash_strip_6
-      rect:
-        serializedVersion: 2
-        x: 1142
-        y: 20
-        width: 35
+        width: 40
         height: 35
       alignment: 9
-      pivot: {x: 0.44476143, y: 0}
+      pivot: {x: 0.37264556, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e86767ef450e7b64285853ec36c25e48
-      internalID: 1678080635
+      spriteID: 20d6e661bbb01aa4aac2ef9fe81a138e
+      internalID: 2098332501
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_Dash_strip_7
+      name: Walk_7
       rect:
         serializedVersion: 2
-        x: 1312
+        x: 1086
         y: 20
-        width: 35
-        height: 35
+        width: 42
+        height: 36
       alignment: 9
-      pivot: {x: 0.45580706, y: 0}
+      pivot: {x: 0.36523438, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f41ad3e9c75c166419e4fa3074d004d6
-      internalID: -109666243
+      spriteID: c502a71e4f1974c44b1293cb16c8ee8d
+      internalID: 1403028029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_8
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 20
+        width: 44
+        height: 36
+      alignment: 9
+      pivot: {x: 0.3498646, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ad98f0a567f3fb46bd10898c637aa3b
+      internalID: 230005927
       vertices: []
       indices: 
       edges: []
@@ -319,14 +319,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      spr_Dash_strip_3: -1408863671
-      spr_Dash_strip_6: 1678080635
-      spr_Dash_strip_5: -1890236320
-      spr_Dash_strip_0: -1776964799
-      spr_Dash_strip_2: -481242330
-      spr_Dash_strip_7: -109666243
-      spr_Dash_strip_1: -1465041214
-      spr_Dash_strip_4: -1059145999
+      Walk_5: 1263838529
+      Walk_4: 1373874713
+      Walk_8: 230005927
+      Walk_6: 2098332501
+      Walk_2: -418760195
+      Walk_7: 1403028029
+      Walk_3: -1831017797
+      Walk_1: -607351993
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

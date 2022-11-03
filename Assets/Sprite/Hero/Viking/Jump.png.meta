@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c4f1ac8da360295469be9e531af0ae86
+guid: c9a80ab7dcae7b24d89b4cf0416392d4
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 16384
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -141,631 +141,526 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: spr_SpinAttack_strip_0
+      name: Jump_1
       rect:
         serializedVersion: 2
-        x: 42
-        y: 19
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 37a625847844da6428e0ab23613ac091
-      internalID: -1870961412
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_SpinAttack_strip_2
-      rect:
-        serializedVersion: 2
-        x: 221
-        y: 19
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f53bad7b23538734884a855edc73a5d7
-      internalID: 1209514988
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_SpinAttack_strip_4
-      rect:
-        serializedVersion: 2
-        x: 392
-        y: 19
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 33f8b12e52a632147ab018e351235a88
-      internalID: -439162404
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_SpinAttack_strip_5
-      rect:
-        serializedVersion: 2
-        x: 554
-        y: 19
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a658e99ba68b1714bb16d61ce1692799
-      internalID: -1462268631
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_SpinAttack_strip_7
-      rect:
-        serializedVersion: 2
-        x: 729
-        y: 19
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 095e7791b1c624145836f971ce2e84b9
-      internalID: -1371483474
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_SpinAttack_strip_9
-      rect:
-        serializedVersion: 2
-        x: 902
+        x: 63
         y: 20
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 35
+        height: 35
+      alignment: 9
+      pivot: {x: 0.46229184, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6139070c59390f94d8e1e5b5b80c9eef
-      internalID: 2142330513
+      spriteID: 9f5353f8999e6a4409da0246ab644505
+      internalID: -1945688618
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_SpinAttack_strip_10
+      name: Jump_2
       rect:
         serializedVersion: 2
-        x: 1066
-        y: 19
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b44f0b293208fc542b07909f4e877353
-      internalID: -1291642222
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_SpinAttack_strip_12
-      rect:
-        serializedVersion: 2
-        x: 1237
-        y: 19
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bc13fdc118250d444beeeec1c8aa4ee4
-      internalID: 1864555478
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_SpinAttack_strip_14
-      rect:
-        serializedVersion: 2
-        x: 1409
-        y: 19
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4e8634ef2fa8e6e41bf298db3264a32e
-      internalID: -1024950608
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_SpinAttack_strip_15
-      rect:
-        serializedVersion: 2
-        x: 1578
-        y: 19
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ca9816679ea12d74f9b7eff1c0518067
-      internalID: -905781510
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_SpinAttack_strip_16
-      rect:
-        serializedVersion: 2
-        x: 1770
-        y: 19
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4c849cd6d4c88f048b773bea90f17b44
-      internalID: 2019577136
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_SpinAttack_strip_18
-      rect:
-        serializedVersion: 2
-        x: 1926
-        y: 19
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8b4fefb4936053c4ca4bf98e43366245
-      internalID: -548909191
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_SpinAttack_strip_20
-      rect:
-        serializedVersion: 2
-        x: 2099
-        y: 18
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8baef168ac5636e43874d03c07458973
-      internalID: 235082789
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_SpinAttack_strip_21
-      rect:
-        serializedVersion: 2
-        x: 2282
-        y: 19
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 17310da6b7c4705459f0b4d433639b5e
-      internalID: -70500116
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_SpinAttack_strip_23
-      rect:
-        serializedVersion: 2
-        x: 2443
-        y: 19
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8c1ffa7da2b77084f91d92bac675f219
-      internalID: 2054723373
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_SpinAttack_strip_24
-      rect:
-        serializedVersion: 2
-        x: 2616
+        x: 283
         y: 20
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 35
+        height: 35
+      alignment: 9
+      pivot: {x: 0.45600846, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e6d20ed6448a9934dad1844e9b9212ba
-      internalID: -987494814
+      spriteID: 96cbc6e4cfeb88b4499b70d1444e3dcf
+      internalID: 962616265
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_SpinAttack_strip_26
+      name: Jump_3
       rect:
         serializedVersion: 2
-        x: 2794
+        x: 503
+        y: 20
+        width: 36
+        height: 33
+      alignment: 9
+      pivot: {x: 0.50878125, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 706d1dc5874957e4e8138073f602cc28
+      internalID: 2097821274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_4
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 20
+        width: 40
+        height: 29
+      alignment: 9
+      pivot: {x: 0.4443466, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d8fae0075769949bf640850869320b
+      internalID: -1188961112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_5
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 20
+        width: 40
+        height: 29
+      alignment: 9
+      pivot: {x: 0.4443451, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58bae43f649202245abf8c0aa2cd9ad4
+      internalID: 622864460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_6
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 20
+        width: 40
+        height: 29
+      alignment: 9
+      pivot: {x: 0.43150026, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c09d3c0ce7b63147b1747f11be7f31b
+      internalID: 1035260265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_7
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 20
+        width: 41
+        height: 30
+      alignment: 9
+      pivot: {x: 0.4498797, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bad7d2df71a0ee409d9e765b21f3c80
+      internalID: 875181212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_8
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 20
+        width: 55
+        height: 56
+      alignment: 9
+      pivot: {x: 0.50157803, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a177dc4c2cfd0c54886566a79e968624
+      internalID: 1745100305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_9
+      rect:
+        serializedVersion: 2
+        x: 1826
+        y: 20
+        width: 60
+        height: 51
+      alignment: 9
+      pivot: {x: 0.49963787, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf4c7308dc77f764eb57fcb2090872b0
+      internalID: -1404034425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_10
+      rect:
+        serializedVersion: 2
+        x: 2045
+        y: 21
+        width: 69
+        height: 56
+      alignment: 9
+      pivot: {x: 0.49970987, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dd1064e6d0f37d4c91247b5638e97b4
+      internalID: 614383735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_11
+      rect:
+        serializedVersion: 2
+        x: 2264
+        y: 21
+        width: 68
+        height: 69
+      alignment: 9
+      pivot: {x: 0.50177, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1da84d9779c3764681a0f4d98a72273
+      internalID: 1658008895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_12
+      rect:
+        serializedVersion: 2
+        x: 2529
+        y: 21
+        width: 31
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c957ef760f2d36e4380112b9877618d1
+      internalID: -495786277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_13
+      rect:
+        serializedVersion: 2
+        x: 2755
         y: 19
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 42
+        height: 61
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 57707b3729416d0458f4cb71bba58b62
-      internalID: 217035297
+      spriteID: 5091dbf75e2d6624b89f2c3e8923a042
+      internalID: -852675125
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_SpinAttack_strip_28
+      name: Jump_14
       rect:
         serializedVersion: 2
-        x: 2961
-        y: 17
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2995
+        y: 20
+        width: 26
+        height: 60
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5df221892460bc449a0e6fe1cec1cc76
-      internalID: -1897887574
+      spriteID: c916b346aa7382f4bb02c813f0aa2d89
+      internalID: -1119546050
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_SpinAttack_strip_30
+      name: Jump_15
       rect:
         serializedVersion: 2
-        x: 3133
-        y: 17
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 3227
+        y: 21
+        width: 24
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42f4186e953ed584da72f528b950391e
-      internalID: 7642031
+      spriteID: f1af075baa7106c488427384afd991b7
+      internalID: -101464589
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_SpinAttack_strip_31
+      name: Jump_16
       rect:
         serializedVersion: 2
-        x: 3306
-        y: 19
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 3453
+        y: 20
+        width: 55
+        height: 25
+      alignment: 9
+      pivot: {x: 0.32070756, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bcd8586a402fd5f4ca704c3b87ed1984
-      internalID: -158713857
+      spriteID: 9309036395054194ab4af9c258ee7417
+      internalID: 188307899
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_SpinAttack_strip_33
+      name: Jump_17
       rect:
         serializedVersion: 2
-        x: 3478
-        y: 17
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 3673
+        y: 20
+        width: 56
+        height: 29
+      alignment: 9
+      pivot: {x: 0.35544807, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 05bf4a885e324c14d8deb812e3bdd552
-      internalID: 960486770
+      spriteID: e0bc11d49f8a6894985020f789c8e7ec
+      internalID: 1591953946
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_SpinAttack_strip_35
+      name: Jump_18
       rect:
         serializedVersion: 2
-        x: 3651
-        y: 18
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 3889
+        y: 20
+        width: 61
+        height: 28
+      alignment: 9
+      pivot: {x: 0.35581696, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26eac84678d6db642a02532450c3ffaa
-      internalID: 891066298
+      spriteID: aadbc9fc028a8534086df4c414fe908c
+      internalID: 1387793427
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_SpinAttack_strip_36
+      name: Jump_19
       rect:
         serializedVersion: 2
-        x: 3818
-        y: 19
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 4110
+        y: 20
+        width: 62
+        height: 28
+      alignment: 9
+      pivot: {x: 0.33665416, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 120d0d0ec8a9d6942b9ceac1036c5f4a
-      internalID: -1623605981
+      spriteID: de1e0a4f3be0edc4fae645817bd3e143
+      internalID: -1860098930
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_SpinAttack_strip_38
+      name: Jump_20
       rect:
         serializedVersion: 2
-        x: 3993
-        y: 17
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 4334
+        y: 20
+        width: 43
+        height: 29
+      alignment: 9
+      pivot: {x: 0.38843343, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 80ecaca185b464d41bcddbcb69f20ba0
-      internalID: -655729189
+      spriteID: 1d9bfd94f1f091943bed2e5ba3181120
+      internalID: -465672145
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_SpinAttack_strip_40
+      name: Jump_21
       rect:
         serializedVersion: 2
-        x: 4164
-        y: 17
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 4555
+        y: 20
+        width: 39
+        height: 31
+      alignment: 9
+      pivot: {x: 0.41799378, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5e77b7e966aff344860f60015fbdb6a
-      internalID: 52655459
+      spriteID: 736d6e1b704625f45807a1fe6e4ccadd
+      internalID: 268869347
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_SpinAttack_strip_41
+      name: Jump_22
       rect:
         serializedVersion: 2
-        x: 4330
-        y: 19
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 4776
+        y: 20
+        width: 33
+        height: 44
+      alignment: 9
+      pivot: {x: 0.52160317, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 46133952f4232af478ebf055337819f5
-      internalID: -654159989
+      spriteID: 64f4f1b4e2d721341b12e93c9e977012
+      internalID: 154648116
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_SpinAttack_strip_43
+      name: Jump_23
       rect:
         serializedVersion: 2
-        x: 4507
-        y: 18
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 4995
+        y: 20
+        width: 35
+        height: 34
+      alignment: 9
+      pivot: {x: 0.46953124, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 44ef51f460cab314d86da0fe7d025963
-      internalID: 781056972
+      spriteID: 662f7e9524b5bfd488410220a95c89fc
+      internalID: -794207746
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_SpinAttack_strip_45
+      name: Jump_24
       rect:
         serializedVersion: 2
-        x: 4677
-        y: 16
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 5215
+        y: 20
+        width: 35
+        height: 35
+      alignment: 9
+      pivot: {x: 0.4542969, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c2aa974a653a8d2489e54112837fc5dc
-      internalID: -856083062
+      spriteID: 192286a70c55b8f4888c5fdfb1fa159b
+      internalID: 645481766
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_SpinAttack_strip_46
+      name: Jump_25
       rect:
         serializedVersion: 2
-        x: 4842
-        y: 19
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 5435
+        y: 20
+        width: 35
+        height: 35
+      alignment: 9
+      pivot: {x: 0.46953124, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eff671ddc9355f34bb1ab22b558ccbdc
-      internalID: -92571360
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_SpinAttack_strip_48
-      rect:
-        serializedVersion: 2
-        x: 5013
-        y: 17
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ffe71644bffee85448f45cad3c44d13b
-      internalID: 1140987583
+      spriteID: d06edecad1fae8544ae431d195fee980
+      internalID: 150226009
       vertices: []
       indices: 
       edges: []
@@ -781,55 +676,31 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      spr_SpinAttack_strip_36: -1623605981
-      spr_SpinAttack_strip_38: -655729189
-      spr_SpinAttack_strip_41: -654159989
-      spr_SpinAttack_strip_7: -1371483474
-      spr_SpinAttack_strip_48: 1140987583
-      spr_SpinAttack_strip_45: -856083062
-      spr_SpinAttack_strip_12: 1864555478
-      spr_SpinAttack_strip_13: 521079662
-      spr_SpinAttack_strip_15: -905781510
-      spr_SpinAttack_strip_26: 217035297
-      spr_SpinAttack_strip_22: 1718653967
-      spr_SpinAttack_strip_16: 2019577136
-      spr_SpinAttack_strip_20: 235082789
-      spr_SpinAttack_strip_46: -92571360
-      spr_SpinAttack_strip_40: 52655459
-      spr_SpinAttack_strip_19: -871351311
-      spr_SpinAttack_strip_42: 2005632306
-      spr_SpinAttack_strip_39: 294785528
-      spr_SpinAttack_strip_3: 1874805946
-      spr_SpinAttack_strip_6: -755893180
-      spr_SpinAttack_strip_25: -667975258
-      spr_SpinAttack_strip_30: 7642031
-      spr_SpinAttack_strip_47: 1885174491
-      spr_SpinAttack_strip_1: -1583189561
-      spr_SpinAttack_strip_2: 1209514988
-      spr_SpinAttack_strip_9: 2142330513
-      spr_SpinAttack_strip_5: -1462268631
-      spr_SpinAttack_strip_35: 891066298
-      spr_SpinAttack_strip_21: -70500116
-      spr_SpinAttack_strip_8: -1571198793
-      spr_SpinAttack_strip_4: -439162404
-      spr_SpinAttack_strip_14: -1024950608
-      spr_SpinAttack_strip_32: -2100307645
-      spr_SpinAttack_strip_44: -144933926
-      spr_SpinAttack_strip_17: 264088049
-      spr_SpinAttack_strip_23: 2054723373
-      spr_SpinAttack_strip_43: 781056972
-      spr_SpinAttack_strip_0: -1870961412
-      spr_SpinAttack_strip_27: 2034365487
-      spr_SpinAttack_strip_18: -548909191
-      spr_SpinAttack_strip_24: -987494814
-      spr_SpinAttack_strip_29: -242350038
-      spr_SpinAttack_strip_10: -1291642222
-      spr_SpinAttack_strip_28: -1897887574
-      spr_SpinAttack_strip_33: 960486770
-      spr_SpinAttack_strip_31: -158713857
-      spr_SpinAttack_strip_11: -820333977
-      spr_SpinAttack_strip_37: 337645462
-      spr_SpinAttack_strip_34: 929205773
+      Jump_3: 2097821274
+      Jump_1: -1945688618
+      Jump_2: 962616265
+      Jump_5: 622864460
+      Jump_16: 188307899
+      Jump_6: 1035260265
+      Jump_11: 1658008895
+      Jump_18: 1387793427
+      Jump_17: 1591953946
+      Jump_10: 614383735
+      Jump_21: 268869347
+      Jump_14: -1119546050
+      Jump_20: -465672145
+      Jump_8: 1745100305
+      Jump_4: -1188961112
+      Jump_7: 875181212
+      Jump_24: 645481766
+      Jump_19: -1860098930
+      Jump_9: -1404034425
+      Jump_12: -495786277
+      Jump_22: 154648116
+      Jump_13: -852675125
+      Jump_23: -794207746
+      Jump_25: 150226009
+      Jump_15: -101464589
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
