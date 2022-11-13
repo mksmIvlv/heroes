@@ -141,7 +141,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Walk_1
+      name: Walk_0
       rect:
         serializedVersion: 2
         x: 66
@@ -162,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk_2
+      name: Walk_1
       rect:
         serializedVersion: 2
         x: 236
@@ -183,7 +183,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk_3
+      name: Walk_2
       rect:
         serializedVersion: 2
         x: 406
@@ -204,7 +204,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk_4
+      name: Walk_3
       rect:
         serializedVersion: 2
         x: 576
@@ -225,7 +225,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk_5
+      name: Walk_4
       rect:
         serializedVersion: 2
         x: 746
@@ -246,7 +246,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk_6
+      name: Walk_5
       rect:
         serializedVersion: 2
         x: 916
@@ -267,7 +267,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk_7
+      name: Walk_6
       rect:
         serializedVersion: 2
         x: 1086
@@ -288,7 +288,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk_8
+      name: Walk_7
       rect:
         serializedVersion: 2
         x: 1256
@@ -319,14 +319,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Walk_5: 1263838529
-      Walk_4: 1373874713
-      Walk_8: 230005927
-      Walk_6: 2098332501
-      Walk_2: -418760195
-      Walk_7: 1403028029
-      Walk_3: -1831017797
-      Walk_1: -607351993
+      Walk_5: 2098332501
+      Walk_0: -607351993
+      Walk_4: 1263838529
+      Walk_6: 1403028029
+      Walk_2: -1831017797
+      Walk_7: 230005927
+      Walk_3: 1373874713
+      Walk_1: -418760195
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
