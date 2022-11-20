@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5242396687508321822}
   - component: {fileID: 3853829071060858941}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GroundCollider
   m_TagString: Hero
   m_Icon: {fileID: 0}
@@ -57,7 +57,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5242396687512408262}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PointCreateBullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -89,7 +89,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5242396688510425104}
   - component: {fileID: 6441320818539848832}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BodyCollider
   m_TagString: Hero
   m_Icon: {fileID: 0}
@@ -134,7 +134,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5242396689361630645}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Colliders
   m_TagString: Hero
   m_Icon: {fileID: 0}
@@ -173,7 +173,7 @@ GameObject:
   - component: {fileID: 5242396689452612008}
   - component: {fileID: 5242396689452612014}
   - component: {fileID: 5242396689452612015}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Archer
   m_TagString: Hero
   m_Icon: {fileID: 0}
@@ -235,8 +235,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 525237107
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: -847383429, guid: 9f62ffa13fc6bff468b70d221a213f63, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -336,4 +336,3 @@ MonoBehaviour:
   layerMaskGround:
     serializedVersion: 2
     m_Bits: 8
-  PointDamage: {fileID: 0}

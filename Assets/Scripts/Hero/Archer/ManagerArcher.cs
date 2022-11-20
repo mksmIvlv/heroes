@@ -5,6 +5,7 @@ public class ManagerArcher : ManagerHero
 {
     void Awake()
     {
+        GetLocalScale();
         hero = gameObject.GetComponent<Rigidbody2D>();
         animatorHero = gameObject.GetComponent<Animator>();
         health = 100;
