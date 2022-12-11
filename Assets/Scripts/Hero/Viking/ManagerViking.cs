@@ -5,17 +5,21 @@ public class ManagerViking : ManagerHero
 {
     void Awake()
     {
-        GetLocalScale();
         hero = gameObject.GetComponent<Rigidbody2D>();
         animatorHero = gameObject.GetComponent<Animator>();
-        health = 10;
-        speedRunning = 1.5f;
+
+        health = 100;
+        armor = 100;
+        speedRunning = 1.3f;
         speedJump = 4;
-        damage = 7;
+        damage = 10;
+
+        GetLocalScale();
     }
+
     void Start()
     {
-        
+        GetSpriteHero();
     }
 
     void Update()
@@ -31,6 +35,7 @@ public class ManagerViking : ManagerHero
         AttackHero();
     }
 
+    /// <inheritdoc />
     protected override IEnumerator CoroutineIsJump()
     {
         isJump = false;

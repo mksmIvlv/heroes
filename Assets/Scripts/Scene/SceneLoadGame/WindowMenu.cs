@@ -16,10 +16,12 @@ public class WindowMenu : MonoBehaviour
         buttonClick = gameObject.GetComponent<AudioSource>();
     }
 
+    #region Кнопки
+
     /// <summary>
     /// Кнопка старта игры
     /// </summary>
-    public void ButtonPlay() 
+    public void ButtonPlay()
     {
         SceneManager.LoadScene(1);
     }
@@ -27,7 +29,7 @@ public class WindowMenu : MonoBehaviour
     /// <summary>
     /// Кнопка выбора героя для игры
     /// </summary>
-    public void ButtonHero() 
+    public void ButtonHero()
     {
         buttonClick.Play();
 
@@ -42,7 +44,7 @@ public class WindowMenu : MonoBehaviour
     /// <summary>
     /// Кнопка загрузки уровня
     /// </summary>
-    public void ButtonLevel() 
+    public void ButtonLevel()
     {
         buttonClick.Play();
 
@@ -57,7 +59,7 @@ public class WindowMenu : MonoBehaviour
     /// <summary>
     /// Кнопка загрузки настроек
     /// </summary>
-    public void ButtonSettings() 
+    public void ButtonSettings()
     {
         buttonClick.Play();
 
@@ -72,17 +74,21 @@ public class WindowMenu : MonoBehaviour
     /// <summary>
     /// Кнопка выхода из игры
     /// </summary>
-    public void ButtonQuit() 
+    public void ButtonQuit()
     {
         buttonClick.Play();
 
         Application.Quit();
     }
 
+    #endregion
+
+    #region Вспомогательные методы
+
     /// <summary>
     /// Получение всех дочерних элементов
     /// </summary>
-    void GetChildComponents() 
+    void GetChildComponents()
     {
         childComponents = new GameObject[transform.childCount];
 
@@ -105,7 +111,9 @@ public class WindowMenu : MonoBehaviour
             allWindow[i] = childComponents[1].transform.GetChild(i).gameObject;
 
             //Отключаем компоненты
-            allWindow[i].SetActive(false);  
+            allWindow[i].SetActive(false);
         }
     }
+
+    #endregion
 }

@@ -21,20 +21,22 @@ public class WindowSettings : MonoBehaviour
         soundBackground = GameObject.Find("Background").GetComponent<AudioSource>();
     }
 
+    #region Кнопки 
+
     /// <summary>
     /// Кнопка включения и отключения звука
     /// </summary>
-    public void ButtonOnOffSound() 
+    public void ButtonOnOffSound()
     {
         buttonClick.Play();
 
-        if (soundBackground.isPlaying) 
+        if (soundBackground.isPlaying)
         {
             soundBackground.Stop();
 
             onOffText.text = "On";
         }
-        else 
+        else
         {
             soundBackground.Play();
 
@@ -51,6 +53,10 @@ public class WindowSettings : MonoBehaviour
 
         gameObject.SetActive(false);
     }
+
+    #endregion
+
+    #region Вспомогательные методы
 
     /// <summary>
     /// Получение всех дочерних элементов
@@ -71,4 +77,6 @@ public class WindowSettings : MonoBehaviour
             allButton[i] = childComponents[1].transform.GetChild(i).gameObject;
         }
     }
+
+    #endregion
 }

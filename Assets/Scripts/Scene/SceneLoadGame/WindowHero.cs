@@ -22,6 +22,8 @@ public class WindowHero : MonoBehaviour
         allHero[indexHero].gameObject.SetActive(true);
     }
 
+    #region Кнопки
+
     /// <summary>
     /// Кнопка влево
     /// </summary>
@@ -81,17 +83,21 @@ public class WindowHero : MonoBehaviour
     /// <summary>
     /// Кнопка закрытия текущего окна
     /// </summary>
-    public void ButtonClose() 
+    public void ButtonClose()
     {
         buttonClick.Play();
 
         gameObject.SetActive(false);
     }
 
+    #endregion
+
+    #region Вспомогательные методы
+
     /// <summary>
     /// Получение всех дочерних элементов
     /// </summary>
-    void GetChildComponents() 
+    void GetChildComponents()
     {
         childComponents = new GameObject[transform.childCount];
 
@@ -118,12 +124,13 @@ public class WindowHero : MonoBehaviour
     /// <summary>
     /// Выключение скриптов у героев. Нужно, чтоб работала анимация, что герой стоит на месте 
     /// </summary>
-    void EnableScriptsInHero() 
+    void EnableScriptsInHero()
     {
         for (int i = 0; i < allHero.Length; i++)
         {
             allHero[i].GetComponent<ManagerHero>().enabled = false;
-
         }
     }
+
+    #endregion
 }
