@@ -9,6 +9,11 @@ TagManager:
   - Arrow
   - AttackHero
   - AttackEnemy
+  - Armor
+  - Health
+  - Arrows
+  - GameOver
+  - LevelUp
   layers:
   - Default
   - TransparentFX

@@ -1,17 +1,15 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class CanvasPause : MonoBehaviour
+public class CanvasPause : ManagerCanvas
 {
     [SerializeField] private GameObject menuPause;
-    AudioSource buttonClick;
-    private string sceneName;
-
+    
     void Awake()
     {
         sceneName = SceneManager.GetActiveScene().name;
-
-        buttonClick = menuPause.gameObject.GetComponent<AudioSource>();
+        buttonClick = gameObject.GetComponent<AudioSource>();
+        Time.timeScale = 1f;
     }
 
     void FixedUpdate()
@@ -28,21 +26,9 @@ public class CanvasPause : MonoBehaviour
     {
         buttonClick.Play();
 
-        menuPause.SetActive(false);
+        menuPause.gameObject.SetActive(false);
 
         Time.timeScale = 1f;
-    }
-
-    /// <summary>
-    /// Кнопка перезагрузки сцены
-    /// </summary>
-    public void ButtonRestart()
-    {
-        buttonClick.Play();
-
-        SceneManager.LoadScene(sceneName);
-
-        ButtonClose();
     }
 
     #endregion
@@ -52,7 +38,7 @@ public class CanvasPause : MonoBehaviour
     /// <summary>
     /// Активация меню
     /// </summary>
-    void ActivateMenuPause()
+    public void ActivateMenuPause()
     {
         if (Input.GetKey(KeyCode.Escape))
         {

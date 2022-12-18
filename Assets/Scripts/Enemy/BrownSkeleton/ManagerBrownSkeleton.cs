@@ -1,29 +1,20 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class ManagerBrownSkeleton : ManagerEnemy
 {
-    private Vector2 directionRun;
-    private GameObject currentHero;
-    private float distanceHero;
-
     void Awake()
     {
         animatorEnemy = gameObject.GetComponent<Animator>();
         enemy = gameObject.GetComponent<Rigidbody2D>();
         
-        damage = 5;
+        damage = 4;
         health = 10;
         speedRunning = 0.5f;
 
-        GetLocalScale();
-        SetGameObjectTracking();
-    }
-
-    void Start()
-    {
         directionRun = new Vector2(1 * speedRunning, enemy.velocity.y);
+
+        SetHero();
+        GetLocalScale();
     }
 
     void FixedUpdate()
@@ -34,23 +25,6 @@ public class ManagerBrownSkeleton : ManagerEnemy
         TrackingHero();
     }
 
-    #region Управление врагом
-
-    /// <summary>
-    /// Метод движения врага
-    /// </summary>
-    void RunEnemy() 
-    {
-        animatorEnemy.SetBool("isRun", isRun);
-
-        if (isRun)
-        {
-            enemy.velocity = directionRun;
-        }
-    }
-
-    #endregion
-
     #region Вспомогательные методы
 
     /// <summary>
@@ -60,50 +34,58 @@ public class ManagerBrownSkeleton : ManagerEnemy
     {
         if (!isDeath)
         {
-            distanceHero = Vector2.Distance(gameObject.transform.position, currentHero.transform.position);
-
-            if (distanceHero < 2f && gameObject.transform.position.x > currentHero.transform.position.x)
+            if(currentHero == null) // Если уничтожили главного героя  
             {
-                enemy.transform.localScale = new Vector2(-(localScaleX), localScaleY);
-
-                directionRun = new Vector2(-1f * speedRunning, enemy.velocity.y);
-
-                isRun = true;
-            }
-            if (distanceHero < 2f && gameObject.transform.position.x < currentHero.transform.position.x)
-            {
-                enemy.transform.localScale = new Vector2(localScaleX, localScaleY);
-
-                directionRun = new Vector2(1f * speedRunning, enemy.velocity.y);
-
-                isRun = true;
-            }
-            if (distanceHero > 2f)
-            {
-                isRun = false;
-
                 isAttack = false;
-            }
-            if (distanceHero < 0.3f)
-            {
+
                 isRun = false;
-
-                isAttack = true;
             }
+            else 
+            {
+                distanceHero = Vector2.Distance(gameObject.transform.position, currentHero.transform.position);
+
+                // Если расстояние до главного героя меньше 2, поворачиваемся влево и задаем направление движения, и начинаем движение
+                if (distanceHero < 2f && gameObject.transform.position.x > currentHero.transform.position.x)
+                {
+                    enemy.transform.localScale = new Vector2(-(localScaleX), localScaleY);
+
+                    directionRun = new Vector2(-1f * speedRunning, enemy.velocity.y);
+
+                    isRun = true;
+                }
+                // Если расстояние до главного героя меньше 2, поворачиваемся вправо и задаем направление движения, и начинаем движение
+                if (distanceHero < 2f && gameObject.transform.position.x < currentHero.transform.position.x)
+                {
+                    enemy.transform.localScale = new Vector2(localScaleX, localScaleY);
+
+                    directionRun = new Vector2(1f * speedRunning, enemy.velocity.y);
+
+                    isRun = true;
+                }
+                // Если расстояние до главного героя больше 2, останавливаемся
+                if (distanceHero > 2f)
+                {
+                    isRun = false;
+
+                    isAttack = false;
+                }
+                // Если расстояние до главного героя меньше 0.3, начинаем атаку
+                if (distanceHero < 0.3f)
+                {
+                    isRun = false;
+
+                    isAttack = true;
+                }
+                // Если расстояние до главного героя больше 0.3 и меньше 2, начинаем движение
+                if(distanceHero > 0.3f && distanceHero < 2f) 
+                {
+                    isRun = true;
+
+                    isAttack = false;
+                }
+            }
+            
         }
-    }
-
-    /// <summary>
-    /// Установка героя, за которым нужно следить
-    /// </summary>
-    void SetGameObjectTracking() 
-    {
-        var indexHero = PlayerPrefs.GetInt("currentHero");
-
-        var allHero = GameObject.Find("AllHeroes");
-
-        currentHero = allHero.transform.GetChild(indexHero).gameObject;
-
     }
 
     #endregion

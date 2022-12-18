@@ -45,8 +45,8 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.28282762, y: 0.21619701}
-  m_Size: {x: 0.24100566, y: 0.24710369}
+  m_Offset: {x: 0.16678685, y: 0.1828683}
+  m_Size: {x: 0.31676733, y: 0.31676733}
   m_Direction: 0
 --- !u!1 &6496951610137750713
 GameObject:
@@ -304,7 +304,6 @@ GameObject:
   - component: {fileID: 7993353093291070819}
   - component: {fileID: 7993353093291070818}
   - component: {fileID: 7993353093291070846}
-  - component: {fileID: 7993353093291070840}
   - component: {fileID: 7993353093291070841}
   m_Layer: 6
   m_Name: Viking
@@ -423,22 +422,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!70 &7993353093291070840
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7993353093291070823}
-  m_Enabled: 0
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.25315425, y: 0.17188257}
-  m_Size: {x: 0.37665993, y: 0.09659825}
-  m_Direction: 1
 --- !u!114 &7993353093291070841
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -458,7 +441,7 @@ MonoBehaviour:
   musicRun: {fileID: 7005826988546895486}
   musicJump: {fileID: 4475960244188085309}
   musicAttack: {fileID: 3765033597203641616}
-  attackCollider: {fileID: 0}
+  attackCollider: {fileID: 4814170927655226810}
   gameObjectHealth: {fileID: 0}
   gameObjectArmor: {fileID: 0}
 --- !u!1 &7993353094467739245

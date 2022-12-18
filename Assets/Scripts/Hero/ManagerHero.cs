@@ -1,8 +1,10 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 [RequireComponent(typeof(Animator))]
+[RequireComponent(typeof(Rigidbody2D))]
 public abstract class ManagerHero : MonoBehaviour
 {
     public int Damage { get { return damage; } }
@@ -10,9 +12,12 @@ public abstract class ManagerHero : MonoBehaviour
     [Header("Проверка игрока на земле")]
     [SerializeField] protected Transform objectContactGround;
     [SerializeField] protected LayerMask layerMaskGround;
+
+    [Header("Музыка героя")]
     [SerializeField] protected AudioSource musicRun;
     [SerializeField] protected AudioSource musicJump;
     [SerializeField] protected AudioSource musicAttack;
+    [Header("Коллайдер для нанесения урона")]
     [SerializeField] protected Collider2D attackCollider;
 
     [Header("Спрайты для канваса")]
@@ -38,6 +43,9 @@ public abstract class ManagerHero : MonoBehaviour
     protected bool isGround;
     protected bool isShooting = true;
     protected bool isDeath = false;
+    protected bool isDestroy = false;
+    private float valueFillHealth;
+    private float valueFillArmor;
     private float directionRunning;
     private float localScaleX;
     private float localScaleY;
@@ -45,27 +53,55 @@ public abstract class ManagerHero : MonoBehaviour
     #region Методы Unity
 
     /// <summary>
-    /// Метод получения урока
+    /// Метод триггера на герое
     /// </summary>
-    /// <param name="collision">Коллайдер врага</param>
-    void OnTriggerEnter2D(Collider2D collision)
+    /// <param name="collision">Коллайдер объекта</param>
+    protected virtual void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("AttackEnemy"))
         {
-            var damageEnemy = 5f;//collision.gameObject.GetComponent<ManagerEnemy>().Damage;
+            var damageEnemy = collision.gameObject.GetComponentInParent<ManagerEnemy>().Damage;
 
             if (armor > 0) 
             {
-                fillArmor.fillAmount -= (0.02f * damageEnemy);
+                fillArmor.fillAmount -= (valueFillArmor * damageEnemy) * 2f;
 
-                armor -= (2f * damageEnemy);
+                armor -= damageEnemy * 2;
             }
             else 
             {
-                fillHealth.fillAmount -= (0.01f * damageEnemy);
+                fillHealth.fillAmount -= (valueFillHealth * damageEnemy);
 
                 health -= damageEnemy;
             }
+        }
+        if (collision.CompareTag("Health") && health < 100) 
+        {
+            health += 10; // Прибавляем 10 жизней
+
+            fillHealth.fillAmount += (valueFillHealth * 10);
+
+            Destroy(collision.gameObject);
+        }
+        if (collision.CompareTag("Armor") && armor < 100) 
+        {
+            armor += 10; // Прибавляем 10 брони
+
+            fillArmor.fillAmount += (valueFillArmor * 10);
+
+            Destroy(collision.gameObject);
+        }
+        if (collision.CompareTag("GameOver"))
+        {
+            health = 0;
+
+            fillHealth.fillAmount = 0;
+        }
+        if (collision.CompareTag("LevelUp"))
+        {
+            var currentScene = SceneManager.GetActiveScene().buildIndex;
+
+            SceneManager.LoadScene($"Level{currentScene + 1}");
         }
     }
 
@@ -189,7 +225,7 @@ public abstract class ManagerHero : MonoBehaviour
     }
 
     /// <summary>
-    /// Метод активации спрайтов - жизни
+    /// Метод активации спрайтов - жизни, брони
     /// </summary>
     protected virtual void GetSpriteHero()
     {
@@ -204,6 +240,16 @@ public abstract class ManagerHero : MonoBehaviour
         fillArmor = gameObjectArmor.transform.GetChild(1).gameObject.GetComponent<Image>();
 
         fillArmor.fillAmount = 1;
+    }
+
+    /// <summary>
+    /// Метод вычисление, какое количество нужно отнимать от спрайта жизней, брони
+    /// </summary>
+    protected virtual void CountValueFillArrow()
+    {
+        valueFillHealth = ((1 * 100) / health) * 0.01f;
+
+        valueFillArmor = ((1 * 100) / armor) * 0.01f;
     }
 
     /// <summary>
@@ -244,7 +290,7 @@ public abstract class ManagerHero : MonoBehaviour
     }
 
     /// <summary>
-    /// Уничтожение объекта, ивент на анимации сметри
+    /// Уничтожение объекта и вызов меню пройгрыша, ивент на анимации сметри
     /// </summary>
     protected void DestroyHero()
     {

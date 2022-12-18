@@ -18,17 +18,16 @@ public class ManagerArcher : ManagerHero
         armor = 100;
         speedRunning = 1.5f;
         speedJump = 3.5f;
-        damage = 10;
-        ammunition = 5;
+        damage = 5;
+        ammunition = 25;
         
         GetLocalScale();
-       
-        CountValueFillArrow();
     }
 
     void Start()
     {
         GetSpriteHero();
+        CountValueFillArrow();
     }
 
     void Update()
@@ -44,6 +43,24 @@ public class ManagerArcher : ManagerHero
         RunHero();
         JumpHero();
         AttackHero();
+    }
+
+    /// <summary>
+    /// Метод триггера на герое
+    /// </summary>
+    /// <param name="collision">Коллайдер объекта</param>
+    private new void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Arrows") && ammunition < 25) 
+        {
+            ammunition += 1; // Прибавляем одну стрелу
+
+            fillArrow.fillAmount += valueFillArrow;
+
+            Destroy(collision.gameObject);
+        }
+
+        base.OnTriggerEnter2D(collision);
     }
 
     /// <inheritdoc />
@@ -87,11 +104,11 @@ public class ManagerArcher : ManagerHero
         }
     }
 
-    /// <summary>
-    /// Метод вычисление, какое количество нужно отнимать от спрайта стрел в зависимости от аммуниции героя
-    /// </summary>
-    private void CountValueFillArrow() 
+    /// <inheritdoc />
+    private new void CountValueFillArrow() 
     {
         valueFillArrow = ((1 * 100) / ammunition) * 0.01f;
+
+        base.CountValueFillArrow();
     }
 }

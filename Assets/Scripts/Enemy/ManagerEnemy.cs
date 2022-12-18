@@ -1,5 +1,7 @@
 using UnityEngine;
 
+[RequireComponent(typeof(Animator))]
+[RequireComponent(typeof(Rigidbody2D))]
 public class ManagerEnemy : MonoBehaviour
 {
     public int Damage { get => damage; }
@@ -12,12 +14,14 @@ public class ManagerEnemy : MonoBehaviour
     protected int damage;
 
     //Вспомогательные поля
+    [Header("Колладер для нанесения урона")]
+    [SerializeField] protected Collider2D attackCollider;
+    protected Vector2 directionRun;
+    protected float distanceHero;
     protected bool isDeath = false;
     protected bool isRun = true;
     protected bool isAttack = false;
-
-    [SerializeField] protected Collider2D attackCollider;
-
+    protected GameObject currentHero;
     protected float localScaleX;
     protected float localScaleY;
 
@@ -26,8 +30,8 @@ public class ManagerEnemy : MonoBehaviour
     /// <summary>
     /// Метод получения урока
     /// </summary>
-    /// <param name="collision">Коллайдер героя</param>
-    void OnTriggerEnter2D(Collider2D collision)
+    /// <param name="collision">Коллайдер объекта</param>
+    protected void OnTriggerEnter2D(Collider2D collision)
     {
         // Урон от игрока
         if (collision.CompareTag("AttackHero"))
@@ -38,7 +42,7 @@ public class ManagerEnemy : MonoBehaviour
         // Урон от стрелы
         if (collision.CompareTag("Arrow"))
         {
-            health -= 10;
+            health -= 2;
 
             Destroy(collision.gameObject);
         }
@@ -47,6 +51,19 @@ public class ManagerEnemy : MonoBehaviour
     #endregion
 
     #region Управление врагом
+
+    /// <summary>
+    /// Метод движения врага
+    /// </summary>
+    protected void RunEnemy()
+    {
+        animatorEnemy.SetBool("isRun", isRun);
+
+        if (isRun)
+        {
+            enemy.velocity = directionRun;
+        }
+    }
 
     /// <summary>
     /// Метод ближнего боя
@@ -76,6 +93,15 @@ public class ManagerEnemy : MonoBehaviour
     #endregion
 
     #region Вспомогательные методы
+
+    protected void SetHero()
+    {
+        var indexHero = PlayerPrefs.GetInt("currentHero");
+
+        var allHeroes = GameObject.Find("AllHeroes");
+
+        currentHero = allHeroes.transform.GetChild(indexHero).gameObject;
+    }
 
     /// <summary>
     /// Получаем размер текущего игрока. Это нужно, когда спрайты разных размеров нужно привести к одному

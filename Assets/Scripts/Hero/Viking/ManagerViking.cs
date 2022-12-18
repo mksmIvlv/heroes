@@ -12,7 +12,7 @@ public class ManagerViking : ManagerHero
         armor = 100;
         speedRunning = 1.3f;
         speedJump = 4;
-        damage = 10;
+        damage = 5;
 
         GetLocalScale();
     }
@@ -20,6 +20,7 @@ public class ManagerViking : ManagerHero
     void Start()
     {
         GetSpriteHero();
+        CountValueFillArrow();
     }
 
     void Update()
@@ -40,7 +41,7 @@ public class ManagerViking : ManagerHero
     {
         isJump = false;
 
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(1.6f);
 
         isJump = true;
     }

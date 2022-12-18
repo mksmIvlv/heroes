@@ -1,32 +1,24 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class ManagerGreenSkeleton : ManagerEnemy
 {
+    [Header("Точки внутри которых передвигается Skeleton")]
     [SerializeField] private GameObject pointA;
     [SerializeField] private GameObject pointB;
-
-    private Vector2 directionRun;
-    private GameObject currentHero;
-    private float distanceHero;
 
     void Awake()
     {
         animatorEnemy = gameObject.GetComponent<Animator>();
         enemy = gameObject.GetComponent<Rigidbody2D>();
         
-        damage = 5;
+        damage = 3;
         health = 10;
         speedRunning = 0.5f;
 
-        GetLocalScale();
-        SetGameObjectTracking();
-    }
-
-    void Start()
-    {
         directionRun = new Vector2(1 * speedRunning, enemy.velocity.y);
+
+        SetHero();
+        GetLocalScale();
     }
 
     void FixedUpdate()
@@ -42,21 +34,22 @@ public class ManagerGreenSkeleton : ManagerEnemy
     /// <summary>
     /// Метод движения врага
     /// </summary>
-    void RunEnemy() 
+    new void RunEnemy()
     {
         animatorEnemy.SetBool("isRun", isRun);
 
-        if (isRun) 
+        if (isRun)
         {
             enemy.velocity = directionRun;
 
+            // Движение к точке В
             if (enemy.transform.position.x > pointA.transform.position.x)
             {
                 enemy.transform.localScale = new Vector2(-(localScaleX), localScaleY);
 
                 directionRun = new Vector2(-1f * speedRunning, enemy.velocity.y);
             }
-
+            // Движение к точке А
             if (enemy.transform.position.x < pointB.transform.position.x)
             {
                 enemy.transform.localScale = new Vector2(localScaleX, localScaleY);
@@ -77,52 +70,54 @@ public class ManagerGreenSkeleton : ManagerEnemy
     {
         if (!isDeath) 
         {
-            distanceHero = Vector2.Distance(gameObject.transform.position, currentHero.transform.position);
-
-            if (distanceHero < 0.4f && gameObject.transform.position.x > currentHero.transform.position.x)
+            if(currentHero == null) // Если уничтожили главного героя 
             {
-                enemy.transform.localScale = new Vector2(-(localScaleX), localScaleY);
-
-                directionRun = new Vector2(-1f * speedRunning, enemy.velocity.y);
-
-                isRun = false;
-
-                isAttack = true;
-            }
-            if (distanceHero < 0.4f && gameObject.transform.position.x < currentHero.transform.position.x)
-            {
-                enemy.transform.localScale = new Vector2(localScaleX, localScaleY);
-
-                directionRun = new Vector2(1f * speedRunning, enemy.velocity.y);
-
-                isRun = false;
-
-                isAttack = true;
-            }
-            if (distanceHero > 0.4f)
-            {
-                isRun = true;
-
                 isAttack = false;
+
+                isRun = false;
+            }
+            else 
+            {
+                distanceHero = Vector2.Distance(gameObject.transform.position, currentHero.transform.position);
+
+                // Если расстояние до главного героя меньше 0.7, поворачиваемся влево и задаем направление движения, и начинаем атаку
+                if (distanceHero < 0.7f && gameObject.transform.position.x > currentHero.transform.position.x)
+                {
+                    enemy.transform.localScale = new Vector2(-(localScaleX), localScaleY);
+
+                    directionRun = new Vector2(-1f * speedRunning, enemy.velocity.y);
+
+                    isRun = true;
+                }
+                // Если расстояние до главного героя меньше 0.7, поворачиваемся вправо и задаем направление движения, и начинаем атаку
+                if (distanceHero < 0.7f && gameObject.transform.position.x < currentHero.transform.position.x)
+                {
+                    enemy.transform.localScale = new Vector2(localScaleX, localScaleY);
+
+                    directionRun = new Vector2(1f * speedRunning, enemy.velocity.y);
+
+                    isRun = true;
+                }
+                // Если расстоние до главного героя меньше 0.3, начинаем атаку
+                if(distanceHero < 0.3f) 
+                {
+                    isAttack = true;
+
+                    isRun = false;
+                }
+                // Если расстоние до главного героя больше 0.7, продолжаем движение
+                if (distanceHero > 0.7f)
+                {
+                    isRun = true;
+
+                    isAttack = false;
+                }
             }
         }
     }
 
     /// <summary>
-    /// Установка героя, за которым нужно следить
-    /// </summary>
-    void SetGameObjectTracking() 
-    {
-        var indexHero = PlayerPrefs.GetInt("currentHero");
-
-        var allHero = GameObject.Find("AllHeroes");
-
-        currentHero = allHero.transform.GetChild(indexHero).gameObject;
-
-    }
-
-    /// <summary>
-    /// Уничтожение врага и его точек
+    /// Уничтожение врага и его точек, ивент на анимации
     /// </summary>
     private new void DestroyEnemy()
     {
