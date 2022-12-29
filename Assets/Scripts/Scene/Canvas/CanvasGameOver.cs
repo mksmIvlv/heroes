@@ -3,16 +3,15 @@ using UnityEngine.SceneManagement;
 
 public class CanvasGameOver : ManagerCanvas
 {
-    [SerializeField] private GameObject gameOver;
+    GameObject gameOver;
     GameObject currentHero;
+    AudioSource buttonClick;
 
     void Awake()
     {
-        sceneName = SceneManager.GetActiveScene().name;
+        gameOver = gameObject.transform.GetChild(0).gameObject;
 
-        buttonClick = gameOver.gameObject.GetComponent<AudioSource>();
-
-        Time.timeScale = 1f;
+        buttonClick = gameOver.GetComponent<AudioSource>();
 
         SetHero();
     }
@@ -23,16 +22,18 @@ public class CanvasGameOver : ManagerCanvas
     }
 
     #region Кнопки
-
-
-    /// <summary>
-    /// Кнопка выхода на уровень загрузки игры
-    /// </summary>
-    public void ButtonQuit()
+    protected new void ButtonRestart()
     {
         buttonClick.Play();
 
-        SceneManager.LoadScene("SceneLoadGame");
+        base.ButtonRestart();
+    }
+
+    protected override void ButtonQuit()
+    {
+        buttonClick.Play();
+
+        base.ButtonQuit();
     }
 
     #endregion
@@ -59,8 +60,6 @@ public class CanvasGameOver : ManagerCanvas
         if (currentHero == null) 
         {
             gameOver.SetActive(true);
-
-            buttonClick.Play();
 
             Time.timeScale = 0f;
         }

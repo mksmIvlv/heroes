@@ -62,8 +62,8 @@ public class ManagerBrownSkeleton : ManagerEnemy
 
                     isRun = true;
                 }
-                // Если расстояние до главного героя больше 2, останавливаемся
-                if (distanceHero > 2f)
+                // Если расстояние до главного героя больше 1.2, останавливаемся
+                if (distanceHero > 1.2f)
                 {
                     isRun = false;
 
@@ -76,8 +76,8 @@ public class ManagerBrownSkeleton : ManagerEnemy
 
                     isAttack = true;
                 }
-                // Если расстояние до главного героя больше 0.3 и меньше 2, начинаем движение
-                if(distanceHero > 0.3f && distanceHero < 2f) 
+                // Если расстояние до главного героя больше 0.3 и меньше 1.2, начинаем движение
+                if (distanceHero > 0.3f && distanceHero < 1.2f) 
                 {
                     isRun = true;
 

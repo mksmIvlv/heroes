@@ -94,14 +94,6 @@ public abstract class ManagerHero : MonoBehaviour
         if (collision.CompareTag("GameOver"))
         {
             health = 0;
-
-            fillHealth.fillAmount = 0;
-        }
-        if (collision.CompareTag("LevelUp"))
-        {
-            var currentScene = SceneManager.GetActiveScene().buildIndex;
-
-            SceneManager.LoadScene($"Level{currentScene + 1}");
         }
     }
 
@@ -175,6 +167,8 @@ public abstract class ManagerHero : MonoBehaviour
     {
         if (health <= 0 && isGround)
         {
+            fillHealth.fillAmount = 0;
+
             isDeath = true;
 
             gameObject.GetComponent<Rigidbody2D>().simulated = false;

@@ -3,18 +3,25 @@ using UnityEngine.SceneManagement;
 
 public class ManagerCanvas : MonoBehaviour
 {
-    protected AudioSource buttonClick;
-    protected string sceneName;
+    protected int sceneIndex;
 
     /// <summary>
     /// Кнопка перезагрузки сцены
     /// </summary>
-    public void ButtonRestart()
+    protected virtual void ButtonRestart()
     {
-        buttonClick.Play();
+        var sceneName = SceneManager.GetActiveScene().name;
 
         SceneManager.LoadScene(sceneName);
 
         Time.timeScale = 1f;
+    }
+
+    /// <summary>
+    /// Кнопка выхода на уровень загрузки игры
+    /// </summary>
+    protected virtual void ButtonQuit()
+    {
+        SceneManager.LoadScene("SceneLoadGame");
     }
 }

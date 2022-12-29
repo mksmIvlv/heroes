@@ -3,13 +3,14 @@ using UnityEngine.SceneManagement;
 
 public class CanvasPause : ManagerCanvas
 {
-    [SerializeField] private GameObject menuPause;
+    GameObject menuPause;
+    AudioSource buttonClick;
     
     void Awake()
     {
-        sceneName = SceneManager.GetActiveScene().name;
-        buttonClick = gameObject.GetComponent<AudioSource>();
-        Time.timeScale = 1f;
+        menuPause = gameObject.transform.GetChild(0).gameObject;
+
+        buttonClick = menuPause.GetComponent<AudioSource>();
     }
 
     void FixedUpdate()
@@ -20,15 +21,29 @@ public class CanvasPause : ManagerCanvas
     #region Кнопки
 
     /// <summary>
-    /// Кнопка закрытия меню
+    /// Кнопка продолжение игры
     /// </summary>
-    public void ButtonClose()
+    public void ButtonResume()
     {
         buttonClick.Play();
 
         menuPause.gameObject.SetActive(false);
 
         Time.timeScale = 1f;
+    }
+
+    protected new void ButtonRestart()
+    {
+        buttonClick.Play();
+
+        base.ButtonRestart();
+    }
+
+    protected override void ButtonQuit()
+    {
+        buttonClick.Play();
+
+        base.ButtonQuit();
     }
 
     #endregion
@@ -43,8 +58,6 @@ public class CanvasPause : ManagerCanvas
         if (Input.GetKey(KeyCode.Escape))
         {
             menuPause.SetActive(true);
-
-            buttonClick.Play();
 
             Time.timeScale = 0f;
         }

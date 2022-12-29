@@ -11,7 +11,7 @@ public class ManagerViking : ManagerHero
         health = 100;
         armor = 100;
         speedRunning = 1.3f;
-        speedJump = 4;
+        speedJump = 3;
         damage = 5;
 
         GetLocalScale();

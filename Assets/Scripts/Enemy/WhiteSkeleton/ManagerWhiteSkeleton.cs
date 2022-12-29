@@ -58,8 +58,8 @@ public class ManagerWhiteSkeleton : ManagerEnemy
 
                     directionRun = new Vector2(1f * speedRunning, enemy.velocity.y);
                 }
-                // Если расстояние до главного героя больше 2, стоим на месте и не атакуем
-                if (distanceHero > 2f)
+                // Если расстояние до главного героя больше 1.2, стоим на месте и не атакуем
+                if (distanceHero > 1.2f)
                 {
                     isRun = false;
 
